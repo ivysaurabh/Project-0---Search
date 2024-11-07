@@ -1,0 +1,30 @@
+#links {
+    position: relative;
+    float:right;
+    margin-right: 2vw;
+}
+
+#search {
+    margin-right: 2vw;
+    position: absolute;
+    left:50%;
+    top:47%;
+    transform: translate(-50%,-50%);
+    display: block;
+    font-size: 1rem;
+    align-items: stretch;
+}
+
+#searchbar {
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+#searchbtn:hover, #searchbar:hover{
+    
+    transform: scale(105%);
+    transition-duration: 1000ms;
+    border-color: blueviolet;
+}
